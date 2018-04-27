@@ -141,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -AllowAnonymousUsers
-Indicates whether or not anonymous users (that is, unauthenticated users) are allowed to cross the firewall and join meetings and conferences.
+Indicates whether or not anonymous users (users that do not have a user account in your organization's Active Directory Domain Services or in a supported federated domain, but can be invited to participate remotely in an on-premises conference) are allowed to join meetings and conferences.
 The default value is False.
 
 ```yaml
