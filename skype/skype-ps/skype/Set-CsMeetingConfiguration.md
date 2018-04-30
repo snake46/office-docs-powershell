@@ -147,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdmitAnonymousUsersByDefault
-Determines whether meetings will, by default, allow attendance by anonymous users (that is, by unauthenticated users).
+Determines whether meetings will, by default, allow attendance by anonymous users (that is, users that do not have a user account in your organization's Active Directory Domain Services or in a supported federated domain, but can be invited to participate remotely in an on-premises conference).
 Set this value to True if you would like new meetings to allow for attendance by anonymous users by default.
 Set this value to False if you would prefer that, by default, new meetings do not allow for attendance by anonymous users.
 The default value is True.
